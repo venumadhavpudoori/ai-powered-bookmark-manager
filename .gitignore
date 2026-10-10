@@ -1,0 +1,106 @@
+# ── Environment & Secrets ───────────────────────────────────
+.env
+.env*.local
+.env.production
+.env.development
+api/.env
+web/.env*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# ── Python & Virtual Environments ───────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/lib/
+/lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Testing & Code Quality ─────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.pyre/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node.js & Next.js ──────────────────────────────────────
+node_modules/
+web/node_modules/
+.next/
+web/.next/
+out/
+web/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ── Databases & Persistence ────────────────────────────────
+*.sqlite3
+*.db
+pgdata/
+
+# ── Operating System & Editors ─────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Editors
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# ── Scratch & Temporary Files ──────────────────────────────
+scratch/
+*.tmp
+*.bak
